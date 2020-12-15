@@ -1,0 +1,291 @@
+*{margin: 0; padding:0;}
+@font-face {
+  font-family: country;
+  src: url(../images/fonts/CenturyGothic.ttf);
+}
+
+body{
+    background:#121B2A;
+    /* position: absolute; */
+    font-family: country;
+}
+.container{
+    margin: auto;
+    width: 80%;
+
+}
+.header{
+    min-width: 10px;
+    background:#121b2a;
+    color:white;
+    overflow: hidden;
+    box-shadow: -20px 5px 45px 37px #08101B;
+}
+.logoBox img{
+    width: 100%;
+    float: left;
+    cursor: pointer;
+}
+.navigation{
+    overflow: hidden;
+}
+.logoBox{
+    max-width: 17%;
+}
+.item{
+    max-width: 106%;
+    text-align: center;
+    margin-left: 10px;
+}
+.menu{
+    float: right;
+    margin-top: 53px;
+}
+.menu .item li{
+    float: left;
+    padding: 10px;
+    font-size:15px;
+    font-weight:bold;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    list-style: none;
+    font-family: country;
+}
+.menu .item li a{
+    text-decoration: none;
+    color: #d6d3d3;
+    padding: 0px 20px;
+    transition: all 0.5s;
+}
+
+.active a{
+    color: #0276c2 !important;
+    letter-spacing: 0.02em;
+}
+/*slidder box start*/
+
+.background_slider{
+    background-image: url(../images/sliderPic.jpg);
+    position: absolute;
+    width: 100%;
+    height: 85.4%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* display: block; */
+    /*background-repeat-y: no-repeat;*/
+    
+}
+.background_slider .container .textBox {
+    width: 65%;
+    color: wheat;
+    margin-top: 22%;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+.background_slider .container .textBox h2 {
+    font-size: 37px;
+    color: white;
+    font-family: country;
+    font-weight: 100;
+}
+
+.background_slider .container .textBox h1 {
+    font-size: 43px;
+    color: #0075B8;
+    font-weight: 1000;
+    font-family: country;
+}
+
+.background_slider .container .textBox p {
+    color: white;
+    font-size: 16.3px;
+    line-height: 1.4;
+}
+.background_slider .container .textBox button {
+    padding: 13px 34px;
+    margin-top: 15px;
+    transition: all 0.5s;
+    border-radius:2px;
+    outline:none;
+    font-family: country;
+    border:1.2px solid #173046;
+}
+
+.background_slider .container .textBox button span {
+    float: left;
+    margin-top: 3.99px;
+    font-size: 19px;
+    color: #655e5e;
+    font-weight: 600;
+    letter-spacing: 0.019em;
+    transition: all 0.5s;
+}
+
+.background_slider .container .textBox button img {
+    float: right;
+    padding-left: 8px;
+    width: 24px;
+    margin-top: 2px;
+}
+
+.background_slider .container .textBox button:hover {
+    background: transparent;
+
+}
+.background_slider .container .textBox button:hover span{
+    letter-spacing: 0.05em;
+}
+
+
+/*slidder box start*/
+
+/*srvices section start*/
+section.servicesSection {
+    position: relative;
+    background: #121B2C;
+    margin-top: 41.01%;
+    color: white;
+    height: 20em;
+}
+
+.common img {
+    float: left;
+    width: 50px;
+}
+
+.TittleOver {
+    float: left;
+    margin-top: 11px;
+}
+
+.textP {margin-top: 14px;line-height: 1.5;padding: 0px;color: #ececec;font-size: 3px !important;}
+
+.common {
+    width: 31%;
+    display: inline-block;
+    padding: 8px;
+}
+
+.TittleBox {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.TittleOver span:nth-child(1) {
+    font-size: 21px;
+    margin-left: 11px;
+}
+
+.TittleOver span:last-child {
+    margin-left: 11px;
+    font-size: 22px;
+    color: #0079BD;
+    font-weight: 800;
+}
+
+.sys{
+    margin-left: 2px !important;
+}
+img.world {
+    padding-top: 16px;
+}
+
+.TittleOver.wireSys {
+    padding-top: 29px;
+}
+img.wireIcon {
+    padding-top: 9px;
+}
+.container.ser {
+    padding-top: 51px;
+}
+/*srvices section end*/
+
+/*contact section start below*/
+
+ .con{
+    background:#040811;
+    padding: 9px 0px;
+ }
+.con .titleOver span {font-size: 157px;}
+
+.con .TittleOver span:nth-child(1) {
+    /* font-size: 29px; */
+    margin: 0 !important;
+    color: white !important;
+}
+
+.con .TittleOver span:nth-child(2) {
+    /*font-size: 25px;*/
+    font-weight: bolder;
+}
+
+.textP.conD span:first-child {
+    margin-left: 66px;
+    display: inline-block;
+}
+img.iphone {
+    width: 100%;
+}
+
+.iphoneParent {
+    width: 36%;
+}
+
+span.edge {
+    color: #0079bd;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.TittleOver.oceans {
+    margin-left: 26px;
+    width: 55%;
+}
+
+img.appStore {
+    width: 100% !important;
+    margin-top: 7px;
+}
+.conWrap {
+    background: #121b2c;
+    padding: 18px;
+    border-radius: 2px;
+}
+
+.conWrap:after {
+    content: "";
+    position: absolute;
+    /* width: 96px; */
+    /* height: 39px; */
+    /* background: red; */
+    left: 52%;
+    bottom: -88.02%;
+    border-top: 34px solid #121b2c;
+    border-right: 86px solid #00fff000;
+}
+
+.conWrap .textP.ConD p {
+}
+
+p.cusSite {
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.common .iphoneSec {
+}
+/*contact section end here*/
+
+
+
+
+
+
+
+
+
+
+
